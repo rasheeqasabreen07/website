@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    background-color: #FAF8F5;
+    color: #1D211F;
+    overflow-x: hidden;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F4EFEB;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #B0C8B6;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7E9987;
+  }
+}
+
+.serif-title {
+  font-family: 'Playfair Display', Cormorant Garamond, serif;
+}
+
+/* Subtle luxury card hover transition */
+.luxury-transition {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}

@@ -1,0 +1,6 @@
+# robots.txt for RAAZ – Massage & Spa Therapy
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://raaz-spa-therapy.com/sitemap.xml
